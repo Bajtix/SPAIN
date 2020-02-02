@@ -1,0 +1,57 @@
+.header
+{
+  background-color: greenyellow;
+  height: 10vh;
+}
+.content
+{
+  height: 60vh;
+  font-family: ;
+}
+.menu-left
+{
+  background-color: blue;
+  float: left;
+  text-align: left;
+  width: 100%;
+  height: 33%;
+}
+.menu-right
+{
+  text-align: right;
+  background-color: red;
+  float: right;
+  width: 100%;
+  height: 33%;
+}
+.menu-left p
+{
+  font-size: 56px;
+  float: right;
+}
+.menu-right p
+{
+  font-size: 56px;
+  float: left;
+}
+.cf
+{
+  float: left;
+  width: 100%;
+  background-color: black;
+}
+.footer
+{
+  background-color: greenyellow;
+  height: 23vh;
+}
+img
+{
+  width: 50%;
+  height: 50%;
+}
+.content img
+{
+  width: 50%;
+  height: 100%;
+}
