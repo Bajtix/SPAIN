@@ -1,6 +1,6 @@
 .header
 {
-  background-color: greenyellow;
+  background-color: #ffad33;
   height: 10vh;
 }
 .content
@@ -42,7 +42,7 @@
 }
 .footer
 {
-  background-color: greenyellow;
+  background-color: #ffad33;
   height: 23vh;
 }
 img
