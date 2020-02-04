@@ -2,11 +2,11 @@
 {
   background-color: greenyellow;
   height: 10vh;
+  font-family: arial;
 }
 .content
 {
-  height: 60vh;
-  font-family: ;
+  height: 70vh;
 }
 .menu-left
 {
@@ -40,11 +40,7 @@
   width: 100%;
   background-color: black;
 }
-.footer
-{
-  background-color: greenyellow;
-  height: 23vh;
-}
+
 img
 {
   width: 50%;
