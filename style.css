@@ -1,58 +1,55 @@
-.header
-{
-  background-color: #ffad33;
-  height: 10vh;
-  font-family: arial;
-}
-.content
-{
-  height: 70vh;
-}
-.marq
-{
-  height: 10vh;
+.header {
+  height           : 10vh;
+  background-color : #ffad33;
+  font-family      : arial;
 }
 
-.menu-left
-{
-  background-color: #ff9900;
-  float: left;
-  text-align: left;
-  width: 100%;
-  height: 33%;
-}
-.menu-right
-{
-  text-align: right;
-  background-color:#ff9900;
-  float: right;
-  width: 100%;
-  height: 33%;
-}
-.menu-left p
-{
-  font-size: 56px;
-  float: right;
-}
-.menu-right p
-{
-  font-size: 56px;
-  float: left;
-}
-.cf
-{
-  float: left;
-  width: 100%;
-  background-color: black;
+.content {
+  height : 70vh;
 }
 
-img
-{
-  width: 50%;
-  height: 50%;
+.marq {
+  height : 10vh;
 }
-.content img
-{
-  width: 50%;
-  height: 100%;
+
+.menu-left {
+  width            : 100%;
+  height           : 33%;
+  float            : left;
+  background-color : #ff9900;
+  text-align       : left;
+}
+
+.menu-right {
+  width            : 100%;
+  height           : 33%;
+  float            : right;
+  background-color : #ff9900;
+  text-align       : right;
+}
+
+.menu-left p {
+  float     : right;
+  font-size : 56px;
+}
+
+.menu-right p {
+  float     : left;
+  font-size : 56px;
+}
+
+.cf {
+  width            : 100%;
+  float            : left;
+  background-color : black;
+}
+
+img {
+  width  : 50%;
+  height : 50%;
+}
+
+.content img {
+  width  : 50%;
+  height : 100%;
 }
