@@ -1,12 +1,17 @@
+body
+{
+  font-family: arial;
+}
+
 .header
 {
   background-color: greenyellow;
   height: 10vh;
+
 }
 .content
 {
   height: 60vh;
-  font-family: ;
 }
 .menu-left
 {
