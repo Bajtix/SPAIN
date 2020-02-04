@@ -1,13 +1,14 @@
 body
 {
   font-family: arial;
+  background-color: #ffd633;
 }
 
 .header
 {
   background-color: greenyellow;
   height: 10vh;
-
+  margin-bottom: 5vh;
 }
 .content
 {
@@ -48,15 +49,17 @@ body
 .footer
 {
   background-color: greenyellow;
-  height: 23vh;
-}
-img
-{
-  width: 50%;
-  height: 50%;
+  height: 12vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 .content img
 {
   width: 50%;
   height: 100%;
+}
+.footer img
+{
+  width: 40px;
 }
