@@ -3,10 +3,16 @@
   background-color : #ffad33;
   font-family      : arial;
 }
+.container {
+    background-color: red;
+    width: 100vh;
+    height: 100vh;
+}
+
 
 .content {
   height           : 70vh;
-  background-color : yellow;
+  background-color : #ffad33;
 }
 
 .marq {
@@ -42,7 +48,7 @@
 .cf {
   width            : 100%;
   float            : left;
-  background-color : black;
+  background-color : Black;
 }
 
 img {
