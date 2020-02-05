@@ -19,7 +19,11 @@
   height           : 70vh;
   background-color : #ffad33;
 }
-
+.content-r
+{
+  background-color : #ffad33;
+  text-align: center;
+}
 .marq {
   height : 10vh;
 }
@@ -64,4 +68,29 @@ img {
 .content img {
   width  : 50%;
   height : 100%;
+}
+
+.recipe-image
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.recipe-image img
+{
+  width: 100%;
+}
+
+.recipe-image h3
+{
+  position: absolute;
+  bottom: 0px;
+  left: 8px;
+  font-size: 23px;
+}
+
+.recipe
+{
+  width: 90%;
 }
