@@ -17,7 +17,14 @@ function getText(ad)
 
   return text;
 }
+function show(id)
+{
+  if(getElementById(id).style.display == "none")
+    getElementById(id).style.display = "block";
+  else
+    getElementById(id).style.display = "none";
 
+}
 
 const template = getText("recipe_template.html");
 const jsonFile = getText("recipes.json");
@@ -27,7 +34,8 @@ json.forEach((item, i) => {
   name = item.name;
   desc = item.description;
   src = item.src;
-  htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc);
+  id = i;
+  htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc).replace("{id}",id);
 });
 
-alert(htmls);
+getElementById('rbox').innerHTML = htmls;
