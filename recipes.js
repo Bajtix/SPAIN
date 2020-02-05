@@ -33,7 +33,7 @@ let htmls = "";
 json.forEach((item, i) => {
   name = item.name;
   desc = item.description;
-  src = item.src;
+  src = item.img;
   id = i;
   htmls = htmls + template.replace(/{name}/g,name).replace(/{src}/g,src).replace(/{desc}/g,desc).replace(/{id}/g,id);
 });
