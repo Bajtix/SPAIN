@@ -1,12 +1,10 @@
-body
-{
-  background-color: #F80;
-  font-size: 50px;
+body {
+  background-color : #F80;
+  font-size        : 50px;
 }
 
-
 .header {
-  //height           : 10vh;
+  // height           : 10vh;
   background-color : #ffad33;
   text-align       : center;
   font-family      : arial;
@@ -17,20 +15,19 @@ body
 }
 
 .container {
-
-  width            : 70vh;
-  //height           : 100vh;
+  width : 70vh;
+  // height           : 100vh;
 }
 
 .content {
-  //height           : 70vh;
+  // height           : 70vh;
   background-color : #ffad33;
 }
-.content-r
-{
-  background-color : #ffad33;
 
+.content-r {
+  background-color : #ffad33;
 }
+
 .marq {
   height : 10vh;
 }
@@ -77,32 +74,39 @@ img {
   height : 100%;
 }
 
-.recipe-image
-{
-  position: relative;
-  text-align: center;
-  color: white;
+.recipe-image {
+  position   : relative;
+  color      : white;
+  text-align : center;
 }
 
-.recipe-image img
-{
-  width: 100%;
+.recipe-image img {
+  width : 100%;
 }
 
-.recipe-image h3
-{
-  position: absolute;
-  bottom: 0px;
-  left: 8px;
-  font-size: 57px;
+.recipe-image h3 {
+  position  : absolute;
+  bottom    : 0px;
+  left      : 8px;
+  font-size : 57px;
 }
 
-a
-{
-  color: black;
+a {
+  color : black;
 }
 
-.recipe
-{
-  width: 100%;
+.recipe {
+  width : 100%;
+}
+
+.return {
+  height           : 100px;
+  margin-bottom    : 30px;
+  background-color : #ffad33;
+  text-align       : center;
+}
+
+.return img {
+  width  : 200px;
+  height : 100px;
 }
