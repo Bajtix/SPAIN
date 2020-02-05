@@ -38,4 +38,4 @@ json.forEach((item, i) => {
   htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc).replace("{id}",id);
 });
 
-document.getElementById('rbox').innerHTML = htmls;
+document.getElementById("rbox").innerHTML = htmls;
