@@ -15,7 +15,7 @@ function getText(ad)
   txtFile.send(0);
 
 
-  return sv;
+  return text;
 }
 
 
@@ -29,3 +29,5 @@ json.forEach((item, i) => {
   src = item.src;
   htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc);
 });
+
+alert(htmls);
