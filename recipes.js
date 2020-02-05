@@ -8,7 +8,7 @@ function getText(ad)
       if (txtFile.status === 200 || txtFile.status === 0) {  // Makes sure it's found the file.
         allText = txtFile.responseText;
         text = allText;
-        alert(text);
+        //alert(text);
       }
     }
   }
@@ -18,5 +18,14 @@ function getText(ad)
   return sv;
 }
 
+
+const template = getText("recipe_template.html");
 const jsonFile = getText("recipes.json");
 const json = JSON.parse(jsonFile);
+let htmls = "";
+json.forEach((item, i) => {
+  name = item.name;
+  desc = item.description;
+  src = item.src;
+  htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc);
+});
