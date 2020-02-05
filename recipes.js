@@ -20,9 +20,9 @@ function getText(ad)
 function show(id)
 {
   if(getElementById(id).style.display == "none")
-    getElementById(id).style.display = "block";
+    document.getElementById(id).style.display = "block";
   else
-    getElementById(id).style.display = "none";
+    document.getElementById(id).style.display = "none";
 
 }
 
@@ -38,4 +38,4 @@ json.forEach((item, i) => {
   htmls = htmls + template.replace("{name}",name).replace("{src}",src).replace("{desc}",desc).replace("{id}",id);
 });
 
-getElementById('rbox').innerHTML = htmls;
+document.getElementById('rbox').innerHTML = htmls;
