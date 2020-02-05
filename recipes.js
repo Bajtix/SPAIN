@@ -35,7 +35,7 @@ json.forEach((item, i) => {
   desc = item.description;
   src = item.src;
   id = i;
-  htmls = htmls + template.replace("/{name}/g",name).replace("/{src}/g",src).replace("/{desc}/g",desc).replace("/{id}/g",id);
+  htmls = htmls + template.replace(/{name}/g,name).replace(/{src}/g,src).replace(/{desc}/g,desc).replace(/{id}/g,id);
 });
 
 document.getElementById("rbox").innerHTML = htmls;
